@@ -1,21 +1,30 @@
+# Environment files and secrets
+.env
+.env.*
 
-.DS_Store
-.idea
-*.tfstate
-*.tfstate.*
-**.terraform
-**.terraform.lock.*
-**google_credentials.json
-**logs/
-**.env
-**__pycache__/
-.history
-**/ny_taxi_postgres_data/*
-serving_dir
-.ipynb_checkpoints/
-!week_6_stream_processing/avro_example/data/rides.csv
-
-# Local course environments and generated media evidence
-.DEV/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 .venv/
-runs/
+venv/
+ENV/
+env/
+.Python
+*.egg-info/
+build/
+dist/
+
+# Testing and tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
